@@ -2,8 +2,8 @@
   .nav-bar .nav-links {
     display: none;
   }
-  header {
-    max-width: 500px;
+  header{
+    max-width: 450px;
     margin: 0 auto;
   }
   .search-bar {
@@ -34,4 +34,55 @@
     
     margin-bottom: 30px;
   }
+  main{
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .tour-section {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+  }
+  .tour-text {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .tour-image {
+    width: 100%;
+  }
+  .tour-image img{
+    width: 100%;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .item-1 {
+    grid-column: 1 / span 1;
+  }
+  .item-2 {
+    grid-column: 1 / span 1;
+  }
+  .item-3 {
+    grid-column: 1 / span 1;
+  }
+  .item-4 {
+    grid-column: 1 / span 1;
+  }
+  .item-5 {
+    grid-column: 1 / span 1;
+  }
+  .item-6 {
+    grid-column: 1 / span 1;
+  }
+  .item-7 {
+    grid-column: 1 / span 1;
+  }
+
 }
+
